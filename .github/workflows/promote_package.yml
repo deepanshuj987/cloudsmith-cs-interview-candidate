@@ -6,10 +6,10 @@ on:
       - main
 
 env:
-  CLOUDSMITH_NAMESPACE: ${{ vars.CLOUDSMITH_NAMESPACE }}
+  CLOUDSMITH_NAMESPACE: 'interview-deepanshu-jain'
   CLOUDSMITH_STAGING_REPO: 'staging'
   CLOUDSMITH_PRODUCTION_REPO: 'production'
-  CLOUDSMITH_SERVICE_SLUG: ${{ vars.CLOUDSMITH_SERVICE_SLUG }}
+  CLOUDSMITH_SERVICE_SLUG: 'bcebb5cc63f9c8adde34d46c066bafd3c466ec71'
   PACKAGE_NAME: 'example_package'
 
 permissions:
